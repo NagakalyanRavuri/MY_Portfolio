@@ -1,0 +1,508 @@
+section{
+    width: 100%;
+    height: 100vh;
+   color: white;
+
+}
+
+/*Home page*/
+#container{
+    width: 60%;
+    height: 25px;
+ 
+    display: flex;
+    justify-content:space-around;
+   
+   
+   
+}
+body{
+    background-color: rgb(6, 6, 6);
+}
+#home
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+   
+}
+
+a{
+    color: rgb(216, 211, 211);
+    text-decoration: none;
+    transition-property: all;
+}
+#box{
+    list-style-type: none;
+   
+}
+#name{
+    margin-right: 20%;
+   color:cornsilk;
+    font-family: cursive;
+}
+#nav{
+    display: flex;
+    margin-top: 10px;
+    width: 97%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(68, 68, 71,0.9);
+    border-radius: 15px;
+   position: fixed;
+   align-self: center;
+   top: 0;
+    z-index: 1000;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a:hover {
+   color: white;
+  
+   
+}
+
+#Welcome{
+    display: flex;
+ 
+
+    width: 100%;
+    font-family:cursive ;
+    font-weight: 1000;
+   position: absolute;
+   top: 100px;
+   left: 55px;
+   margin-left: 20px;
+}
+#we{
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+
+}
+
+
+
+
+#about{
+    width: 900px;
+    position: absolute;
+    top: 300px;
+    display: flex;
+    text-align: justify;
+    color: rgb(192, 191, 190);
+    align-self: center;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#image-container {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    right: 120px;
+    top: 210px;
+ 
+   border-top: solid 5px white;
+   box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.5), -5px -5px 15px rgba(255, 255, 255, 0.5);
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image {
+    width: 100%;
+    height: 100%;
+    border: solid 250px white;
+    object-fit: cover; 
+    border-radius: 50%;
+}
+
+
+#java{
+    display: flex;
+ 
+
+    width: 100%;
+   
+    font-family:cursive ;
+    font-weight: 1000;
+   position: absolute;
+   top: 100px;
+  
+   font-size: 30px;
+}
+
+/*Project Page*/
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200vh;
+   
+}
+
+#project { 
+    width:90%;
+    height: 400px;
+    border: solid 5px rgb(222, 215, 201);
+    border-radius: 15px;
+    display: flex;
+   position: relative;
+    margin: 20px;
+
+
+    
+    
+}
+
+#view{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+    background-color:rgb(167, 170, 166);
+   
+   
+}
+h1{
+    margin-top: 100px;
+}
+#view:hover{
+    background-color: azure;
+    color: black;
+}
+#img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left:50px;
+    top: 50px;
+}
+button{
+    color: black;
+    font-family: cursive;
+    font-size: 15px;
+}
+#details{
+    position: absolute;
+    left: 360px;
+    top: 130px;
+    font-family:cursive;
+    font-size: 18px;
+   
+}
+
+
+#projectTitle{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+#projecttitle{
+    position: absolute;
+    font-size: 40px;
+    right: 340px;
+    font-variant: small-caps
+    
+
+}
+
+#dairy{
+    position: absolute;
+    font-size: 40px;
+    top: 20px;
+    right: 250px;
+    font-variant: small-caps  
+
+}
+#aboout{
+    display: flex;
+    position: relative;
+    
+}
+
+#education1{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(133, 133, 132);
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+ 
+   
+}
+
+#education2{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(133, 133, 132);
+    backdrop-filter: blur(20px);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 200px;
+    left: 990px;
+    border-radius: 20px;
+   
+}
+#education3{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(133, 133, 132);
+    display: flex;
+    flex-direction: column;
+  
+    position: absolute;
+    top: 200px;
+    left: 570px;
+    border-radius: 20px;
+}
+
+#edutitle{
+    position: absolute;
+    left: 45%;
+    
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#uni{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+#educount{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#stream{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#marks{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#year{
+    margin-left: 20px;
+    font-size: 18px;
+    color: rgb(207, 202, 202);
+}
+#education1:hover{
+    top: 190px;
+}
+#education2:hover{
+    top: 190px;
+}
+
+#education3:hover{
+    top: 190px;
+} 
+#skills{
+    position: relative;
+}
+
+#skillcontainer{
+    display: flex;
+    width: 100%;
+    height:100vh;
+    justify-content:space-evenly;
+    top: 250px;
+    position: absolute;
+   
+}
+#skillslist{
+    width: 200px;
+    height: 200px;
+    font-family: cursive;
+    border: solid 5px white;
+    border-radius: 50%;
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+}
+#skillslist:hover{
+    background-color: white;
+    color: black;
+}
+#skillheader{
+    position: absolute;
+    top: 50px;
+    left: 45%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+
+#level{
+    width: 200px;
+    height: 23px;
+
+    margin-top: 30px;
+   border-radius: 20px;
+    background-color: rgb(128, 128, 128 );
+    text-align: center;  
+    position: absolute;
+    top: 203px;
+}
+#level1{
+    width: 160px;
+    font-family: cursive;
+    margin-top: 30px;
+    color: black;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    top: 203px;
+} 
+#level2{
+    width: 120px;
+    font-family: cursive;
+    margin-top: 30px;
+    color: black;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    top: 203px;
+}
+#level3{
+    width: 160px;
+    font-family: cursive;
+    margin-top: 30px;
+    color: black;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    top: 203px;
+}
+
+#level4{
+    width: 120px;
+    font-family: cursive;
+    margin-top: 30px;
+    color: black;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    top: 203px;
+}
+#level5{
+    width: 120px;
+    font-family: cursive;
+    margin-top: 30px;
+    color: black;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    position: absolute;
+    top: 203px;
+}
+
+#level1,#level2,#level3,#level4,#level5{
+    background-color: greenyellow;
+}
+
+#form{
+    width: 60%;
+    height: max-content;
+    
+
+}
+
+input{
+    width: 60%;
+    height: 30px;
+}
+#contact{
+  
+    width: 90%;
+    
+}
+
+.contact {
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.contact label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact input, 
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background: #fff; /* Ensure background is visible */
+    z-index: 1; /* Ensure it's above other elements */
+    position: relative; /* Make sure it's clickable */
+}
+
+.contact textarea {
+    resize: vertical;
+}
+
+.contact button {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.contact button:hover {
+    background-color: #555;
+}
+
+/* Fix for potential overlay issues */
+.contact input:focus, 
+.contact textarea:focus {
+    border: 2px solid #007bff;
+    outline: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact {
+        width: 80%;
+    }
+}
+
+input{
+    background-color: black;
+}
